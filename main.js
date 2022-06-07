@@ -11,10 +11,7 @@ let client = new Client({
     ]
 })
 
-
-
 ////////////////////////////////TICTACTOE////////////////////////////////////////////////
-
 
 const TicTacToe = require('discord-tictactoe');
 new TicTacToe({
@@ -25,11 +22,8 @@ new TicTacToe({
     textCommand: '!ttt'
 }).login();
 
-
-///////////////////////////////////////////////////////////////////
-
-
 ////////////////////////////////////////XP-SYSTEM////////////////////////////////////////////
+
 const Levels = require("discord-xp");
 Levels.setURL("mongodb+srv://alpi12:alpibest1984@cluster0.s8xyu24.mongodb.net/test"); // You only need to do this ONCE per process.
 const Discord = require('discord.js');
