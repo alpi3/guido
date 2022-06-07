@@ -12,7 +12,7 @@ module.exports = {
             required: true,
         }
     ],
-    run: async (client, interaction, message) => {
+    run: async (interaction) => {
         const target = interaction.options.getUser('target') 
 
         const user = await Levels.fetch(target.id, interaction.guild.id, true); // Selects the target from the database.
