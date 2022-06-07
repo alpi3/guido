@@ -1,7 +1,3 @@
-const Discord = require('discord.js');
-
-
-
 module.exports = {
     name: "watchtogether",
     description: "creates the link for the activity",

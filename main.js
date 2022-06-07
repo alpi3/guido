@@ -26,7 +26,6 @@ new TicTacToe({
 
 const Levels = require("discord-xp");
 Levels.setURL("mongodb+srv://alpi12:alpibest1984@cluster0.s8xyu24.mongodb.net/test"); // You only need to do this ONCE per process.
-const Discord = require('discord.js');
 
 client.on("messageCreate", async (message) => {
     if (!message.guild) return;

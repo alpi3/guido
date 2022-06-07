@@ -1,6 +1,4 @@
-const { MessageEmbed } = require('discord.js');
 const Levels = require("discord-xp");
-const Canvas = require("discord-canvas");
 
 module.exports = {
     name: "give-xp",

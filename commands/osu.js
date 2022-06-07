@@ -1,8 +1,6 @@
 const Discord = require('discord.js')
 const nodeosu = require('node-osu')
 const config = require('../config.json')
-const Canvas = require('@napi-rs/canvas');
-const { readFile } = require('fs/promises');
 const osu = new nodeosu.Api(config.apikey, { // Set your API Key in config.json
   resAsError: true // Reject on not found instead of returning nothing. (default: true)
 })

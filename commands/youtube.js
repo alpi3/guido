@@ -1,4 +1,3 @@
-const { MessageEmbed } = require('discord.js');
 const YouTube = require("discord-youtube-api");
 const youtube = new YouTube("AIzaSyA0DLU34F6lWgclQXqXR_583N9oodqB2L4");
 

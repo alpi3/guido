@@ -1,6 +1,5 @@
 const randomPuppy = require('random-puppy');
 const Discord = require('discord.js');
-const { sub } = require('ffmpeg-static');
 
 module.exports = {
     name: 'meme',
